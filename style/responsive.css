@@ -1,0 +1,219 @@
+@media screen and (max-width: 480px) {
+.logoMenu{
+margin-left: 47rem;
+transition: all 350ms linear;
+}
+.menuItem ul li{
+display: none;
+}
+.menuIcon{
+display: block;
+transition: all 350ms ease-in-out;
+}
+.content{
+   margin-top: 5rem;
+margin-left: 6rem;
+}
+.topText{
+font-size: 10rem;
+transition: all 250ms ease-in-out;
+text-align: center;
+}
+.bottomText{
+   display: none;
+}
+.centerTitle{
+font-size: 5rem;
+transition: all 250ms ease-in-out;
+   }
+.galleryPargraph , .galleryTitle {
+display: none;
+}
+.linkPic{
+display: block;
+}
+.gallery{
+flex-direction: row;
+margin-left: -3rem;
+margin-top: -4rem;
+gap: 1rem;
+   }
+.albumPic{
+  width: 16rem;
+  height: 12rem;
+  margin-right: 3rem;
+  margin-top: -8rem;
+}
+.link{
+  margin-right: -27rem;
+  margin-top: 2rem;
+  position: absolute;
+  font-size: 2rem;
+  text-decoration: underline;
+    }
+     }
+@media screen and (max-width: 530px) {
+   .imgLogo{
+      margin-left: -4rem;
+      transition: all 350ms linear;
+      }
+      .menuItem ul li{
+      display: none;
+      }
+      .menuIcon{
+      display: block;
+      transition: all 350ms ease-in-out;
+      }
+      .topText{
+      font-size: 10rem;
+      transition: all 250ms ease-in-out;
+      text-align: center;
+      margin-top: 5rem;
+      margin-left: 5rem;
+         }
+      .bottomText{
+         display: none;
+      }
+      .cofeImg{
+         margin-right: 3rem;
+         margin-top: 0rem;
+      }
+      .cupImg{
+   width: 25rem;
+   height: auto;
+      }
+      .textOne{
+         display:none;
+      }
+      .centerTitle{
+      font-size: 5rem;
+      transition: all 250ms ease-in-out;
+         }
+      .galleryPargraph , .galleryTitle {
+      display: none;
+      }
+      .linkPic{
+      display: block;
+      }
+      .gallery{
+      flex-direction: row;
+      margin-left: -3rem;
+      margin-top: -4rem;
+      gap: 1rem;
+         }
+      .albumPic{
+        width: 16rem;
+        height: 12rem;
+        margin-right: 3rem;
+        margin-top: -8rem;
+      }
+      .link{
+        margin-right: -27rem;
+        margin-top: 2rem;
+        position: absolute;
+        font-size: 2rem;
+        text-decoration: underline;
+          }
+}
+@media screen and (max-width: 768px) {
+   .imgLogo{
+      margin-left: -4rem;
+      transition: all 350ms linear;
+      }
+      .menuItem ul li{
+      display: none;
+      }
+      .menuIcon{
+      display: block;
+      transition: all 350ms ease-in-out;
+      }
+      .topText{
+      font-size: 10rem;
+      transition: all 250ms ease-in-out;
+      text-align: center;
+      margin-top: 5rem;
+      margin-left: 5rem;
+         }
+      .bottomText{
+         display: none;
+      }
+      .cofeImg{
+         margin-right: 3rem;
+         margin-top: 0rem;
+      }
+      .cupImg{
+   width: 25rem;
+   height: auto;
+      }
+      .textOne{
+         display:none;
+      }
+      .centerTitle{
+      font-size: 5rem;
+      transition: all 250ms ease-in-out;
+         }
+      .galleryPargraph , .galleryTitle {
+      display: none;
+      }
+      .linkPic{
+      display: block;
+      }
+      .gallery{
+      flex-direction: row;
+      margin-left: -3rem;
+      margin-top: -4rem;
+      gap: 1rem;
+         }
+      .albumPic{
+        width: 16rem;
+        height: 12rem;
+        margin-right: 3rem;
+        margin-top: -8rem;
+      }
+      .link{
+        margin-right: -27rem;
+        margin-top: 2rem;
+        position: absolute;
+        font-size: 2rem;
+        text-decoration: underline;
+          }
+
+}
+@media screen and (max-width:992px){
+.imgLogo{
+   margin-left: -35rem;
+   transition: all 350ms linear;
+}
+.menuItem ul li{
+display: none;
+}
+.menuIcon{
+display: block;
+transition: all 350ms ease-in-out;
+}
+.content{
+   margin-left: 9rem;
+}
+.topText{
+ font-size: 2.5rem;
+ text-align: center;
+}
+.bottomText{
+   font-size:1.5;
+}
+}
+@media screen and  (max-width:1330px) {
+.imgLogo{
+margin-left: -35rem;
+transition: all 350ms linear;
+}
+.content{
+   transition: all 250ms ease-in-out;
+   text-align: center;
+   margin-top: 10rem;
+   margin-left: 9rem;
+}
+.topText , .bottomText{
+ font-size: 2.5rem;
+}
+}

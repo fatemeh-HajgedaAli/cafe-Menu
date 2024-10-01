@@ -1,0 +1,345 @@
+:root {
+    --primary-color: #83321d;
+    --secondary-color:#F8E1DB;
+    --white: #fff;
+    --grey: #D2D2D2;
+    --dark: #3B3735;
+    --app-bg:#f5ded7;
+    --primary-font: "vazir", Arial, Helvetica, sans-serif;
+}
+*{
+margin: 0; 
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style-type: none;
+font-family:var(--primary-font);
+}
+
+body{
+    background-color: var(--secondary-color);
+}
+/* header */
+header{
+background-image:linear-gradient(rgba(59, 55, 53, 0.5), rgba(59, 55, 53, 0.5)), 
+url("../images/bakcground-header.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+width: 84rem;
+height: 40rem;  
+}
+.menuItem{
+display: flex;
+background-color:rgba(255, 255, 255, 0.6);
+width: 84rem;
+height: 5rem;
+font-family: var(--primary-font);
+border-bottom:0.5px solid var(--primary-color);
+border-radius: 0rem 0rem 1rem 1rem;
+}
+.itemNav{
+display: flex;
+flex-direction: row;
+gap: 2.5rem;
+padding-right: 10rem;
+padding-top: 1rem;
+}
+.navMenu{
+color: var(--dark);
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 0.5rem;
+}
+.navMenu:hover{
+color: #eb8735;
+transition: all 0.8s ease-in-out;
+}
+.menuIcon{
+width:15%;
+float: right;
+display: none;
+} 
+.imgLogo{
+width: 4.5rem;
+height: auto;
+display: flex;
+margin-right: 69rem;
+margin-top: -4.8rem;
+background-color: #da894691;
+border-radius: 100%;
+padding: 0.3rem;
+float: right;
+}
+.menuIcon{
+display: none;
+}
+.icon{
+width: 5rem;
+height: 5rem;
+margin: 0rem 6rem;
+
+}
+.content{
+margin-top: 10rem;
+margin-right: 9rem;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-items: center;
+font-family: var(--primary-font);
+color: var(--white);
+}
+.topText{
+font-size:2rem;
+padding-bottom: 1rem;
+font-weight: bolder;
+}
+.bottomText{
+font-size:1.5rem;
+font-weight: bold;
+}
+/* main */
+.loveCofe{
+display: flex;
+flex-direction: row;
+background: var(--white);
+height: 18rem;
+width: 84rem;
+align-items: baseline;
+flex-wrap: wrap;
+align-content: center;
+justify-content: center;
+}
+.cofeImg{
+margin-right: 35rem;
+margin-top: -12rem;
+}
+.cupImg{
+width: 19rem;
+height: auto;
+border-radius: 1rem;
+border:1px solid #da8946;
+box-shadow: -0.2rem 0.1rem 1rem var(--dark);
+}
+.textOne{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 12rem;
+    margin-top: 1.5rem;
+}
+.cupTitle{
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+}
+.cupPargraph{
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 1.2rem;
+    margin: 0rem 26rem;
+}
+/* center text */
+.mainCenter{
+background-image:linear-gradient(rgba(59, 55, 53, 0.5), rgba(59, 55, 53, 0.5)), 
+url("../images/backtwo.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+position: relative;
+width: 83rem;
+height: 40rem;  
+}
+.textCenter{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.centerTitle{
+color:var(--white);
+font-size: 2.5rem;
+margin: 13rem 1rem 2rem;
+font-weight: bold;
+}
+.Pargraph{
+margin: 1rem 22rem 1rem;
+font-size: 1.5rem;
+text-align: center;
+color: var(--white);
+}
+/* picture menu */
+.albumPart{
+display: flex;
+position: relative;
+align-items: center;
+width: 83rem;
+background-color: #ffff;
+height: 30rem;
+}
+.textGallery{
+align-items: center;
+}
+.galleryTitle{
+text-align: center;
+font-size: 2rem;
+color: var(--dark);
+margin: 7rem 47rem 1rem 1rem;  
+}
+.galleryPargraph{
+font-size: 1rem;
+color: var(--dark);
+margin-right: 42.5rem;
+text-align: center;
+font-weight: lighter;
+padding-left: 1rem; 
+}
+.gallery{
+display: flex;
+position: absolute;
+flex-wrap: wrap;
+gap: 3rem;
+justify-content: flex-end;
+margin-left: 45rem;
+margin-top: -22rem;
+}
+.albumPic{
+width: 16rem;
+height: 11rem;
+border: 1px solid var(--primary-color);
+border-radius: 1rem;
+box-shadow: -0.1rem 0.2rem 1rem var(--primary-color);
+}
+.albumPic:hover{
+border: 3.5px solid red;
+transition: all 250ms ease-out;
+cursor: pointer;
+}
+.linkPic{
+margin-right: 59rem;
+margin-top: 0rem;
+padding-top: 1rem;
+}
+.link{
+color: #161515;
+font-size: 1rem;
+padding-left: -1rem;
+text-shadow: 0.1px 1px 1px #52392d;
+padding-right: 2rem;
+}
+.link:hover{
+color: red;
+text-shadow: none;
+cursor: pointer;
+text-align: center;
+transition: all 0.7s ease-in-out;
+}
+/* main bottom */
+.mainBottom{
+background-image:linear-gradient(rgba(59, 55, 53, 0.5), rgba(59, 55, 53, 0.5)), 
+url("../images/1.jpeg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+position: relative;
+width: 83rem;
+height: 40rem;  
+}
+.textBottom{
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 0 2rem;
+padding-top: 11rem;
+}
+.bottomTitle{
+font-size:4rem;
+font-weight: bold;
+color: var(--white);
+}
+.centerPargraph{
+font-size:2.2rem;
+font-weight: bold;
+color: var(--white);
+}
+/* last part */
+.imagePart{
+background: var(--white);
+height: 31rem;
+width: 83rem;
+margin:0;
+}
+.pictures{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+gap: 2rem;
+}
+.pic{
+width: 15rem;
+height: 17rem;
+border: 1px solid var(--primary-color);
+border-radius: 2rem;
+margin-top: 2rem;
+box-shadow: -0.1rem 0.2rem 1rem var(--primary-color);
+}
+.textPic{
+margin: 3rem 21rem;
+text-align: center;
+}
+.picTitle{
+font-size: 2rem;
+color: var(--primary-color);
+font-weight: bolder;
+}
+.picPargraph{
+font-size: 1rem;
+color: var(--primary-color);
+font-weight: lighter;
+}
+/* footer */
+.footer{
+background-color:var(--dark);
+height: 20rem;
+width: 83rem;
+}
+.footerText{
+    padding-right: 2.4rem;
+    padding-top: 2rem;
+    color: var(--white);
+    text-align: center;
+}
+.textFooter{
+font-size: 2rem;
+}
+.pargFooter{
+    margin: 1.5rem 23rem;
+}
+.logos{
+text-align: center;
+}
+.logoText{
+padding-top: 2rem;
+color: var(--white);
+margin-right: 3rem;
+font-size: 1rem;
+text-align: center;
+}
+.logo{
+margin-right: 3rem;
+padding-top: 1rem;
+text-align: center;
+}
+.logo i{
+color: var(--white);
+font-size: 1rem;
+}
+i:hover{
+color: #f13016;
+transition: all 0.5s ease-in-out;
+font-size: large;
+}
